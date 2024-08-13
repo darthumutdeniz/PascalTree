@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(blue,purple);
+    height: auto;
+    min-height: 100vh;
+    min-width: 600px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.box{
+    background-color: red;
+    display: flex;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    border: none;
+}
